@@ -1,0 +1,8 @@
+# The framework:
+fastapi==0.71.0
+# The server for running asyncrhonously:
+uvicorn==0.16.0
+# Since OAuth2 uses form data for sending username + password:
+python-multipart==0.0.5
+# Email validation with pydantic:
+pydantic[email]
