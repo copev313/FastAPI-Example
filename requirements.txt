@@ -6,3 +6,7 @@ uvicorn==0.16.0
 python-multipart==0.0.5
 # Email validation with pydantic:
 pydantic[email]
+# Generate and verify JWT tokens:
+python-jose[cryptography]
+# For password hashing:
+passlib[bcrypt]
